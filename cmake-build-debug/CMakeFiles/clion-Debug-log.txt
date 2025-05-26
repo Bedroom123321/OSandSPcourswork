@@ -1,4 +1,4 @@
-/home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/ninja/linux/x64/ninja -G Ninja -S /home/bedroom/OSandSP/CourseWork -B /home/bedroom/OSandSP/CourseWork/cmake-build-debug
+/home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/ninja/linux/x64/ninja -G Ninja -S /home/bedroom/CourseWork -B /home/bedroom/CourseWork/cmake-build-debug
 -- Configuring done (0.0s)
 -- Generating done (0.0s)
--- Build files have been written to: /home/bedroom/OSandSP/CourseWork/cmake-build-debug
+-- Build files have been written to: /home/bedroom/CourseWork/cmake-build-debug

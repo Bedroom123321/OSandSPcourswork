@@ -1,0 +1,7 @@
+# ninja log v6
+3	45	1748252765983671936	CMakeFiles/CourseWork.dir/logger.c.o	38c67062c80efafc
+2	50	1748252765983393958	CMakeFiles/CourseWork.dir/integrity.c.o	d6aed3dc37ea7661
+2	54	1748252765982252579	CMakeFiles/CourseWork.dir/config.c.o	9983e1b96f1f505e
+2	54	1748252765983103063	CMakeFiles/CourseWork.dir/monitor.c.o	34dae59e474b7dd5
+1	64	1748252765981252374	CMakeFiles/CourseWork.dir/main.c.o	48978fe4c6c5815d
+2	57	1748252765982764629	CMakeFiles/CourseWork.dir/thread_manager.c.o	8cb17a29e1c12ff7

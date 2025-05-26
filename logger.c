@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdarg.h>
 #include <time.h>
+#include <errno.h>
 #include <string.h>
 #include "logger.h"
 
@@ -9,7 +10,7 @@ static FILE *log_fp = NULL;
 void init_logger(const char *log_file) {
     log_fp = fopen(log_file, "a");
     if (!log_fp) {
-        fprintf(stderr, "Не удалось открыть лог-файл %s\n", log_file);
+        fprintf(stderr, "Не удалось открыть лог-файл %s: %s\n", log_file, strerror(errno));
     }
 }
 

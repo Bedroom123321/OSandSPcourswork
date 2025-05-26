@@ -8,7 +8,6 @@ add_executable(CourseWork main.c
         config.h
         thread_manager.c
         thread_manager.h
-        monitor.c
         monitor.h
         integrity.c
         integrity.h

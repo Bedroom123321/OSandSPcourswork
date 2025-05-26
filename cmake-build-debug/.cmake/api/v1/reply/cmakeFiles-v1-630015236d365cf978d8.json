@@ -91,8 +91,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/bedroom/OSandSP/CourseWork/cmake-build-debug",
-		"source" : "/home/bedroom/OSandSP/CourseWork"
+		"build" : "/home/bedroom/CourseWork/cmake-build-debug",
+		"source" : "/home/bedroom/CourseWork"
 	},
 	"version" : 
 	{

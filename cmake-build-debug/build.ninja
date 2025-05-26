@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /home/bedroom/OSandSP/CourseWork/cmake-build-debug/
+cmake_ninja_workdir = /home/bedroom/CourseWork/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target CourseWork
 
@@ -49,37 +49,31 @@ cmake_ninja_workdir = /home/bedroom/OSandSP/CourseWork/cmake-build-debug/
 
 build cmake_object_order_depends_target_CourseWork: phony || .
 
-build CMakeFiles/CourseWork.dir/main.c.o: C_COMPILER__CourseWork_unscanned_Debug /home/bedroom/OSandSP/CourseWork/main.c || cmake_object_order_depends_target_CourseWork
+build CMakeFiles/CourseWork.dir/main.c.o: C_COMPILER__CourseWork_unscanned_Debug /home/bedroom/CourseWork/main.c || cmake_object_order_depends_target_CourseWork
   DEP_FILE = CMakeFiles/CourseWork.dir/main.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/CourseWork.dir
   OBJECT_FILE_DIR = CMakeFiles/CourseWork.dir
 
-build CMakeFiles/CourseWork.dir/config.c.o: C_COMPILER__CourseWork_unscanned_Debug /home/bedroom/OSandSP/CourseWork/config.c || cmake_object_order_depends_target_CourseWork
+build CMakeFiles/CourseWork.dir/config.c.o: C_COMPILER__CourseWork_unscanned_Debug /home/bedroom/CourseWork/config.c || cmake_object_order_depends_target_CourseWork
   DEP_FILE = CMakeFiles/CourseWork.dir/config.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/CourseWork.dir
   OBJECT_FILE_DIR = CMakeFiles/CourseWork.dir
 
-build CMakeFiles/CourseWork.dir/thread_manager.c.o: C_COMPILER__CourseWork_unscanned_Debug /home/bedroom/OSandSP/CourseWork/thread_manager.c || cmake_object_order_depends_target_CourseWork
+build CMakeFiles/CourseWork.dir/thread_manager.c.o: C_COMPILER__CourseWork_unscanned_Debug /home/bedroom/CourseWork/thread_manager.c || cmake_object_order_depends_target_CourseWork
   DEP_FILE = CMakeFiles/CourseWork.dir/thread_manager.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/CourseWork.dir
   OBJECT_FILE_DIR = CMakeFiles/CourseWork.dir
 
-build CMakeFiles/CourseWork.dir/monitor.c.o: C_COMPILER__CourseWork_unscanned_Debug /home/bedroom/OSandSP/CourseWork/monitor.c || cmake_object_order_depends_target_CourseWork
-  DEP_FILE = CMakeFiles/CourseWork.dir/monitor.c.o.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/CourseWork.dir
-  OBJECT_FILE_DIR = CMakeFiles/CourseWork.dir
-
-build CMakeFiles/CourseWork.dir/integrity.c.o: C_COMPILER__CourseWork_unscanned_Debug /home/bedroom/OSandSP/CourseWork/integrity.c || cmake_object_order_depends_target_CourseWork
+build CMakeFiles/CourseWork.dir/integrity.c.o: C_COMPILER__CourseWork_unscanned_Debug /home/bedroom/CourseWork/integrity.c || cmake_object_order_depends_target_CourseWork
   DEP_FILE = CMakeFiles/CourseWork.dir/integrity.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/CourseWork.dir
   OBJECT_FILE_DIR = CMakeFiles/CourseWork.dir
 
-build CMakeFiles/CourseWork.dir/logger.c.o: C_COMPILER__CourseWork_unscanned_Debug /home/bedroom/OSandSP/CourseWork/logger.c || cmake_object_order_depends_target_CourseWork
+build CMakeFiles/CourseWork.dir/logger.c.o: C_COMPILER__CourseWork_unscanned_Debug /home/bedroom/CourseWork/logger.c || cmake_object_order_depends_target_CourseWork
   DEP_FILE = CMakeFiles/CourseWork.dir/logger.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/CourseWork.dir
@@ -93,7 +87,7 @@ build CMakeFiles/CourseWork.dir/logger.c.o: C_COMPILER__CourseWork_unscanned_Deb
 #############################################
 # Link the executable CourseWork
 
-build CourseWork: C_EXECUTABLE_LINKER__CourseWork_Debug CMakeFiles/CourseWork.dir/main.c.o CMakeFiles/CourseWork.dir/config.c.o CMakeFiles/CourseWork.dir/thread_manager.c.o CMakeFiles/CourseWork.dir/monitor.c.o CMakeFiles/CourseWork.dir/integrity.c.o CMakeFiles/CourseWork.dir/logger.c.o
+build CourseWork: C_EXECUTABLE_LINKER__CourseWork_Debug CMakeFiles/CourseWork.dir/main.c.o CMakeFiles/CourseWork.dir/config.c.o CMakeFiles/CourseWork.dir/thread_manager.c.o CMakeFiles/CourseWork.dir/integrity.c.o CMakeFiles/CourseWork.dir/logger.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/CourseWork.dir
   POST_BUILD = :
@@ -106,7 +100,7 @@ build CourseWork: C_EXECUTABLE_LINKER__CourseWork_Debug CMakeFiles/CourseWork.di
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/bedroom/OSandSP/CourseWork/cmake-build-debug && /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/bedroom/CourseWork/cmake-build-debug && /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -117,7 +111,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/bedroom/OSandSP/CourseWork/cmake-build-debug && /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/bedroom/OSandSP/CourseWork -B/home/bedroom/OSandSP/CourseWork/cmake-build-debug
+  COMMAND = cd /home/bedroom/CourseWork/cmake-build-debug && /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/bedroom/CourseWork -B/home/bedroom/CourseWork/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -133,7 +127,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /home/bedroom/OSandSP/CourseWork/cmake-build-debug
+# Folder: /home/bedroom/CourseWork/cmake-build-debug
 
 build all: phony CourseWork
 
@@ -144,14 +138,14 @@ build all: phony CourseWork
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-C.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Initialize.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /home/bedroom/OSandSP/CourseWork/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-C.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Initialize.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /home/bedroom/CourseWork/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-C.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Initialize.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /home/bedroom/OSandSP/CourseWork/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
+build /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-C.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Initialize.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux.cmake /home/bedroom/CLion-2024.3.3/clion-2024.3.3/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /home/bedroom/CourseWork/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
 
 
 #############################################

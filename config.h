@@ -1,17 +1,19 @@
 #ifndef CONFIG_H
 #define CONFIG_H
 
-#define MAX_FILES 100
-#define MAX_PATH 256
+#include <sys/types.h>
+
+#define PATH_MAX 4096
 
 typedef struct {
-    char **file_paths;
+    char *root_dir;
+    gid_t target_gid;
     int num_files;
-    gid_t target_gid; // Идентификатор группы пользователей
-    char *root_dir;   // Корневая директория для поиска
+    char **file_paths;
+    char **file_hashes; // Массив для хранения исходных хэшей файлов
 } Config;
 
-int load_config(const char *root_dir, gid_t gid, Config *config);
+int load_config(const char *root_dir, gid_t target_gid, Config *config);
 void free_config(Config *config);
 
 #endif
