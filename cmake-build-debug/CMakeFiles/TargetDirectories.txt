@@ -1,0 +1,3 @@
+/home/bedroom/OSandSP/CourseWork/cmake-build-debug/CMakeFiles/CourseWork.dir
+/home/bedroom/OSandSP/CourseWork/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/bedroom/OSandSP/CourseWork/cmake-build-debug/CMakeFiles/rebuild_cache.dir
