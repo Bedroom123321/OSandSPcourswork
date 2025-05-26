@@ -1,0 +1,2 @@
+[Mon May 26 02:56:31 2025] ERROR: Не удалось инициализировать inotify в thread_manager: Too many open files
+[Mon May 26 02:56:31 2025] ERROR: Не удалось инициализировать менеджер потоков
